@@ -4,6 +4,23 @@ Note: this changelog is for the shields.io server. The changelog for the badge-m
 
 ---
 
+## server-2026-03-15
+
+**Important notice:**
+
+- The `cors.allowedOrigin` and `fetchLimit` configuration options have been be removed. Please make sure they're no longer present in your configuration.
+
+**Deprecation:**
+
+- Drop [Nexus] 2 support [#11728](https://github.com/badges/shields/issues/11728)
+- Deprecate [Codeship] service [#11724](https://github.com/badges/shields/issues/11724)
+
+Other changes:
+
+- Replace @sentry/node with @sentry/node-core/light [#11731](https://github.com/badges/shields/issues/11731)
+- Fix [Reuse] unregistered handling [#11729](https://github.com/badges/shields/issues/11729)
+- Dependency updates
+
 ## server-2026-02-15
 
 - Add not-planned and duplicate to issue state to [GithubIssueDetail] [#11666](https://github.com/badges/shields/issues/11666)
